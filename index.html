@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoLab STEM - Mural Digital</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌿</text></svg>">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="canvas-board" id="mural-container">
+
+        <nav class="mural-dock" id="dock-nav">
+            <a href="#inicio" class="dock-item active" title="Inicio">🏠<span>Inicio</span></a>
+            <a href="#mapa" class="dock-item" title="Mapa">🗺️<span>Mapa</span></a>
+            <a href="#contexto" class="dock-item" title="Contexto">📍<span>Contexto</span></a>
+            <a href="#objetivos" class="dock-item" title="Objetivos">🎯<span>Objetivos</span></a>
+            <a href="#red-stem" class="dock-item" title="Nodos STEM">🧩<span>Red STEM</span></a>
+            <a href="#ruta-pdi" class="dock-item" title="PDI">⚙️<span>Ruta PDI</span></a>
+            <a href="#analisis" class="dock-item" title="Reflexión">💡<span>Análisis</span></a>
+            <a href="#estrategias" class="dock-item" title="Estrategias">🚀<span>Estrategias</span></a>
+            <a href="#fuentes" class="dock-item" title="Fuentes">📚<span>Fuentes</span></a>
+        </nav>
+
+        <header class="mural-piece hero-piece" id="inicio">
+            <div class="tape top-center"></div>
+            <div class="academic-sticker sticker-blue">Proyecto Integrador Unidad 4</div>
+            <h1 class="mural-title">EcoLab STEM: datos, diseño y acción para cuidar el agua y el clima escolar</h1>
+            <p class="mural-subtitle">De la queja por el calor al diseño de soluciones con datos en el contexto escolar de La Jagua de Ibirico.</p>
+            
+            <div class="sticky-note note-yellow rotate-right-slight">
+                <div class="pin top-center"></div>
+                <strong>Pregunta Esencial:</strong><br>
+                ¿Cómo podemos diseñar, desde la escuela, una solución sencilla para observar el calor, cuidar el agua y mejorar las condiciones ambientales del entorno escolar?
+            </div>
+            
+            <div class="author-label">
+                <span>👤 <strong>Estudiante:</strong> Diego Fabian Fuentes Garcia</span>
+                <span>👩‍🏫 <strong>Profesora:</strong> Sandra Milena Rojas Tolosa</span>
+                <span>🎓 <strong>Módulo:</strong> La Pedagogía y el Enfoque Integrador</span>
+            </div>
+        </header>
+
+        <section class="mural-piece map-piece rotate-left-slight" id="mapa">
+            <div class="academic-sticker sticker-orange">Ruta Visual</div>
+            <h2>Mapa de Exploración Pedagógica</h2>
+            <div class="map-pathway">
+                <div class="map-node">1. Problema</div>
+                <div class="map-connector"></div>
+                <div class="map-node">2. Objetivos</div>
+                <div class="map-connector"></div>
+                <div class="map-node">3. Conexión STEM</div>
+                <div class="map-connector"></div>
+                <div class="map-node">4. Proceso PDI</div>
+                <div class="map-connector"></div>
+                <div class="map-node">5. Acción real</div>
+                <div class="map-connector"></div>
+                <div class="map-node">6. Reflexión</div>
+                <div class="map-connector"></div>
+                <div class="map-node">7. Referencias</div>
+            </div>
+        </section>
+
+        <div class="collage-row">
+            <section class="mural-piece context-piece" id="contexto">
+                <div class="pin top-left"></div>
+                <div class="pin top-right"></div>
+                <div class="academic-sticker sticker-green">Territorio</div>
+                <h2>El Reto en Nuestro Contexto</h2>
+                <div class="highlight-text">
+                    "Desde mi experiencia en La Jagua de Ibirico y el Corredor Minero del Cesar, hablar de ambiente no puede quedarse solo en una explicación general. Las altas temperaturas, el uso del agua y la relación entre escuela, comunidad y territorio hacen necesario que los estudiantes aprendan a observar, registrar datos y proponer acciones posibles desde su propio contexto."
+                </div>
+                <p>El ambiente escolar enfrenta retos tangibles. La intención no es sumar materias, sino hacer que cada área ayude a comprender y actuar frente a esta realidad medible y cercana.</p>
+            </section>
+
+            <section class="mural-piece innovation-piece rotate-right-slight">
+                <div class="tape top-right"></div>
+                <div class="academic-sticker sticker-dark">Valor Agregado</div>
+                <h2>💡 Ejes de Innovación</h2>
+                <ul class="innovation-list">
+                    <li>Uso de <strong>datos del propio entorno</strong>, no supuestos teóricos.</li>
+                    <li>Tecnología <strong>accesible o simulada</strong> de bajo costo.</li>
+                    <li>Estudiantes como <strong>auditores ambientales</strong> escolares.</li>
+                    <li>Transición de la queja pasiva al <strong>diseño de soluciones</strong>.</li>
+                    <li><strong>Socialización directa</strong> con la comunidad educativa.</li>
+                </ul>
+            </section>
+        </div>
+
+        <section class="mural-piece objectives-piece" id="objetivos">
+            <div class="tape top-left"></div>
+            <div class="academic-sticker sticker-blue">Ecosistema de Aprendizaje</div>
+            <h2>Objetivos Integrados (Explora las tarjetas)</h2>
+            
+            <div class="central-phrase-box">
+                "Todas las áreas aportan al mismo reto: observar, analizar y actuar frente al agua y el clima escolar."
+            </div>
+
+            <div class="flip-grid">
+                <div class="flip-card">
+                    <div class="flip-inner">
+                        <div class="flip-front bg-green-light">
+                            <span class="flip-icon">🔬</span>
+                            <h3>Ciencias</h3>
+                            <p>Comprender el fenómeno</p>
+                            <span class="flip-hint">Girar ↻</span>
+                        </div>
+                        <div class="flip-back bg-green-dark">
+                            <h3>Ciencias</h3>
+                            <p>Comprender variables ambientales como temperatura, ciclos del agua, humedad, adaptación de plantas y condiciones del entorno físico escolar.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-inner">
+                        <div class="flip-front bg-blue-light">
+                            <span class="flip-icon">📊</span>
+                            <h3>Matemáticas</h3>
+                            <p>Modelar la realidad</p>
+                            <span class="flip-hint">Girar ↻</span>
+                        </div>
+                        <div class="flip-back bg-blue-dark">
+                            <h3>Matemáticas</h3>
+                            <p>Registrar datos continuos, organizar tablas, calcular promedios, comparar variaciones térmicas e interpretar gráficas de consumo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-inner">
+                        <div class="flip-front bg-gray-light">
+                            <span class="flip-icon">💻</span>
+                            <h3>Tecnología</h3>
+                            <p>Registrar y visualizar</p>
+                            <span class="flip-hint">Girar ↻</span>
+                        </div>
+                        <div class="flip-back bg-gray-dark">
+                            <h3>Tecnología</h3>
+                            <p>Usar herramientas digitales, hojas de cálculo, formularios y simulación de sensores para procesar y hacer visible la información recolectada.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-inner">
+                        <div class="flip-front bg-orange-light">
+                            <span class="flip-icon">⚙️</span>
+                            <h3>Ingeniería</h3>
+                            <p>Diseñar soluciones</p>
+                            <span class="flip-hint">Girar ↻</span>
+                        </div>
+                        <div class="flip-back bg-orange-dark">
+                            <h3>Ingeniería</h3>
+                            <p>Diseñar, probar y mejorar una solución escolar tangible: estación climática básica, bitácora ambiental o sistema de riego simulado.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-inner">
+                        <div class="flip-front bg-yellow-light text-dark">
+                            <span class="flip-icon">🗣️</span>
+                            <h3>Humanidades</h3>
+                            <p>Comunicar e impactar</p>
+                            <span class="flip-hint">Girar ↻</span>
+                        </div>
+                        <div class="flip-back bg-yellow-dark text-dark">
+                            <h3>Lenguaje / Sociales</h3>
+                            <p>Comunicar hallazgos empíricos, argumentar decisiones de diseño y reflexionar críticamente sobre el impacto ambiental comunitario.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mural-piece network-piece rotate-left-slight" id="red-stem">
+            <div class="pin top-center"></div>
+            <div class="academic-sticker sticker-dark">Integración</div>
+            <h2>Red de Nodos STEM</h2>
+            <p>No sumamos materias; interconectamos saberes. Selecciona un nodo para ver su aporte al núcleo del proyecto.</p>
+
+            <div class="stem-network-container">
+                <div class="network-core">
+                    🎯 Cuidar el agua y el clima escolar con datos y diseño
+                </div>
+                
+                <div class="network-nodes">
+                    <button class="node-btn" data-info="Ciencia comprende el fenómeno: identifica por qué hace más calor en zonas específicas o cómo reaccionan las plantas al déficit hídrico local.">🔬 Ciencia</button>
+                    <button class="node-btn" data-info="Matemáticas interpreta los datos: traduce percepciones cualitativas ('hace calor') en análisis cuantitativos ('el promedio subió 2°C').">📊 Matemáticas</button>
+                    <button class="node-btn" data-info="Tecnología facilita la visualización: emplea herramientas digitales y bases de datos sencillas para que la información sea accesible y procesable.">💻 Tecnología</button>
+                    <button class="node-btn" data-info="Ingeniería articula la acción: estructura el diseño del prototipo, organizando materiales, pruebas y mejoras continuas de la solución.">⚙️ Ingeniería</button>
+                    <button class="node-btn" data-info="Lenguaje y Sociales conectan con la comunidad: garantizan que los datos se conviertan en argumentos éticos y campañas de acción ciudadana.">🗣️ Humanidades</button>
+                </div>
+            </div>
+            
+            <div class="node-display-panel" id="node-info-display">
+                <span class="placeholder-text">Selecciona un área para ver cómo aporta al reto central.</span>
+            </div>
+        </section>
+
+        <section class="mural-piece pdi-piece" id="ruta-pdi">
+            <div class="tape top-right"></div>
+            <div class="academic-sticker sticker-orange">Metodología Aplicada</div>
+            <h2>Camino del Proceso de Diseño en Ingeniería</h2>
+            <p class="section-intro">Sigue el orden numérico de las fases para ir desde la observación hasta la comunicación de la solución.</p>
+            
+            <div class="clean-pathway">
+                <div class="path-step">
+                    <div class="step-num">1</div>
+                    <div class="step-card">
+                        <h3>Preguntar</h3>
+                        <p><strong>Acción:</strong> Observar el entorno y formular preguntas sobre calor y zonas verdes.</p>
+                        <p><strong>Aporte STEM:</strong> Indagación científica.</p>
+                        <span class="evidence-tag">Evidencia: Lista de problemas</span>
+                    </div>
+                </div>
+                <div class="path-step">
+                    <div class="step-num">2</div>
+                    <div class="step-card">
+                        <h3>Imaginar</h3>
+                        <p><strong>Acción:</strong> Proponer posibles soluciones basadas en datos.</p>
+                        <p><strong>Aporte STEM:</strong> Pensamiento divergente.</p>
+                        <span class="evidence-tag">Evidencia: Bocetos iniciales</span>
+                    </div>
+                </div>
+                <div class="path-step">
+                    <div class="step-num">3</div>
+                    <div class="step-card">
+                        <h3>Planear</h3>
+                        <p><strong>Acción:</strong> Seleccionar solución, materiales y roles.</p>
+                        <p><strong>Aporte STEM:</strong> Lógica de processes.</p>
+                        <span class="evidence-tag">Evidencia: Plan de trabajo</span>
+                    </div>
+                </div>
+                <div class="path-step">
+                    <div class="step-num">6</div>
+                    <div class="step-card">
+                        <h3>Mejorar</h3>
+                        <p><strong>Acción:</strong> Ajustar diseño según errores y hallazgos.</p>
+                        <p><strong>Aporte STEM:</strong> Optimización de sistemas.</p>
+                        <span class="evidence-tag">Evidencia: Prototipo V.2</span>
+                    </div>
+                </div>
+                <div class="path-step">
+                    <div class="step-num">5</div>
+                    <div class="step-card">
+                        <h3>Probar</h3>
+                        <p><strong>Acción:</strong> Revisar si la solución recolecta datos o funciona.</p>
+                        <p><strong>Aporte STEM:</strong> Medición de variables.</p>
+                        <span class="evidence-tag">Evidencia: Registro de pruebas</span>
+                    </div>
+                </div>
+                <div class="path-step">
+                    <div class="step-num">4</div>
+                    <div class="step-card">
+                        <h3>Crear</h3>
+                        <p><strong>Acción:</strong> Construir estación climática o prototipo.</p>
+                        <p><strong>Aporte STEM:</strong> Construcción e Ingeniería.</p>
+                        <span class="evidence-tag">Evidencia: Prototipo físico/digital</span>
+                    </div>
+                </div>
+                <div class="path-step final-step">
+                    <div class="step-num">7</div>
+                    <div class="step-card">
+                        <h3>Comunicar</h3>
+                        <p><strong>Acción:</strong> Presentar resultados a la comunidad educativa.</p>
+                        <p><strong>Aporte STEM:</strong> Alfabetización de datos.</p>
+                        <span class="evidence-tag">Evidencia: Feria EcoLab</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mural-piece reflection-piece" id="analisis">
+            <div class="pin top-left"></div>
+            <div class="pin bottom-right"></div>
+            <div class="academic-sticker sticker-yellow text-dark">Panel de Análisis</div>
+            <h2>Reflexión Crítica: De los Datos a la Conciencia</h2>
+            
+            <div class="reflection-board">
+                <div class="q-card">¿Qué nos dicen los datos fríos sobre nuestro ambiente escolar cotidiano?</div>
+                <div class="q-card">¿Qué decisiones concretas podemos tomar para cuidar mejor el agua en la escuela?</div>
+                <div class="q-card">¿Cómo se relacionan estos micro-cambios ambientales con nuestra vida diaria y familiar?</div>
+                <div class="q-card">¿Qué responsabilidad tiene la escuela y la comunidad educativa frente a su territorio?</div>
+                <div class="q-card highlight-q">¿Por qué no basta con opinar del clima, sino que necesitamos observar y analizar evidencias?</div>
+            </div>
+        </section>
+
+        <section class="mural-piece strategies-piece rotate-right-slight" id="estrategias">
+            <div class="tape top-center"></div>
+            <div class="academic-sticker sticker-blue">Gestión Educativa</div>
+            <h2>Estrategias de Implementación (Persuasión)</h2>
+            <p>Tarjetas interactivas: Haz clic para expandir la viabilidad de la propuesta.</p>
+
+            <div class="accordion-grid">
+                <div class="strategy-folder">
+                    <button class="strategy-header">
+                        <span class="s-icon">⏱️</span>
+                        <h3>Piloto Corto (2 Semanas)</h3>
+                        <span class="toggle-icon">+</span>
+                    </button>
+                    <div class="strategy-content">
+                        <div class="content-inner">
+                            <p><strong>A quién convence:</strong> Docentes y Coordinadores.</p>
+                            <p><strong>Necesidad:</strong> Evitar la sobrecarga laboral y el miedo a alterar el currículo.</p>
+                            <p><strong>Por qué es viable:</strong> Usa recursos existentes (termómetros básicos, Excel) durante un tiempo delimitado.</p>
+                            <p><strong>Evidencia a mostrar:</strong> Una primera tabla de datos cruzados sin interrumpir el periodo académico.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="strategy-folder">
+                    <button class="strategy-header">
+                        <span class="s-icon">🎪</span>
+                        <h3>Feria EcoLab STEM</h3>
+                        <span class="toggle-icon">+</span>
+                    </button>
+                    <div class="strategy-content">
+                        <div class="content-inner">
+                            <p><strong>A quién convence:</strong> Familias, Rectoría y Comunidad.</p>
+                            <p><strong>Necesidad:</strong> Hacer visible el aprendizaje y validar el enfoque.</p>
+                            <p><strong>Por qué es viable:</strong> Transforma la evaluación tradicional escrita en un espacio de socialización y defensa oral de prototipos.</p>
+                            <p><strong>Evidencia a mostrar:</strong> Estudiantes argumentando con gráficas y prototipos reales.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="strategy-folder">
+                    <button class="strategy-header">
+                        <span class="s-icon">🤝</span>
+                        <h3>Trabajo Colaborativo por Roles</h3>
+                        <span class="toggle-icon">+</span>
+                    </button>
+                    <div class="strategy-content">
+                        <div class="content-inner">
+                            <p><strong>A quién convence:</strong> Colegas de áreas específicas.</p>
+                            <p><strong>Necesidad:</strong> Mantener el rigor y la identidad de cada disciplina escolar.</p>
+                            <p><strong>Por qué es viable:</strong> Se trabaja el mismo problema, pero la evaluación se divide. El de matemáticas califica el dato, el de lenguaje la exposición.</p>
+                            <p><strong>Evidencia a mostrar:</strong> Matriz de rúbrica compartida pero calificada desde la especialidad de cada docente.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mural-piece footer-piece" id="fuentes">
+            <div class="pin top-right"></div>
+            <div class="pin top-left"></div>
+            <div class="academic-sticker sticker-green">Soporte Teórico y Territorial</div>
+            <h2 class="text-white">Conexión Real y Referencias </h2>
+            
+            <div class="sources-layout">
+                <div class="entities-box">
+                    <h3 class="text-white">Entidades del Ecosistema</h3>
+                    <div class="entity-chips">
+                        <span class="chip">IDEAM (Datos Climáticos)</span>
+                        <span class="chip">Min. Ambiente y Desarrollo Sostenible</span>
+                        <span class="chip">Corpocesar (Autoridad Local)</span>
+                        <span class="chip">CONASTEM (Referente STEM)</span>
+                        <span class="chip">Lectura Fundamental - Unidad 4 (Poligran)</span>
+                    </div>
+                </div>
+                
+                <div class="apa-box">
+                    <h3 class="text-white">Referencias Bibliográficas</h3>
+                    <div class="apa-list">
+                        <p>Botero Espinosa, J. (2023). <em>Educación STEM - Marco de Referencia para América Latina</em>. STEM Education Colombia.</p>
+                        <p>Botero Espinosa, J. (s. f.). <em>Integración de las áreas STEM en la educación</em>. Politécnico Grancolombiano.</p>
+                        <p>CONASTEM. (2023). <em>¿Qué es STEM? Una propuesta conceptual de CONASTEM</em>.</p>
+                        <p>Honey, M., Pearson, G., & Schweingruber, H. (Eds.). (2014). <em>STEM integration in K-12 education: Status, prospects, and an agenda for research</em>. National Academies Press.</p>
+                        <p>Moore, T. J., & Smith, K. A. (2014). Advancing the state of the art of STEM integration. <em>Journal of STEM Education, 15</em>(1), 5–10.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
